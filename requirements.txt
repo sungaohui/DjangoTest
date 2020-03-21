@@ -1,2 +1,2 @@
-uwsgi
+PyMySQL==0.9.3
 Django==2.1.8
