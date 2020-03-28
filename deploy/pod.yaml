@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myblog
+  namespace: demo
+spec:
+  containers:
+  - name: myblog
+    image: 192.168.136.128:60080/demo/myblog
+    ports:
+    - containerPort: 8002
+  - name: mysql
+    image: 192.168.136.128:60080/demo/mysql:5.7
+    ports:
+    - containerPort: 3306
