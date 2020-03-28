@@ -37,6 +37,5 @@ bin/*
 *.sublime-workspace
 .idea/*
 .vscode/*
-log/*
 static/*
 *.gz
