@@ -38,4 +38,3 @@ bin/*
 .idea/*
 .vscode/*
 static/*
-*.gz
