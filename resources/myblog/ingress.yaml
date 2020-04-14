@@ -5,7 +5,7 @@ metadata:
   namespace: demo
 spec:
   rules:
-  - host: myblog.fkqq.cn
+  - host: blog.qq.com
     http:
       paths:
       - path: /
