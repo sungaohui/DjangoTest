@@ -37,4 +37,3 @@ bin/*
 *.sublime-workspace
 .idea/*
 .vscode/*
-static/*
